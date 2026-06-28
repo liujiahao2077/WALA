@@ -1,0 +1,121 @@
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly (e.g. pip install mink==0.0.5), otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite WARNING] No private macro file found! (macros.py:28)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:29)
+[robosuite WARNING] To setup, run: python /mnt/data/ljh/robocasa_eval_setup/robocasa-gr1-tabletop-tasks/robocasa/scripts/setup_macros.py (macros.py:30)
+WARNING: mimicgen environments not imported since mimicgen is not installed!
+06/26 [20:08:34] INFO     | >> Arguments: {                                                 simulation_env_ppu.py:289
+                              "host": "127.0.0.1",                                                                   
+                              "port": 6669,                                                                          
+                              "env_name":                                                                            
+                          "gr1_unified/PosttrainPnPNovelFromTrayToCardboardboxSplitA_GR1Arm                          
+                          sAndWaistFourierHands_Env",                                                                
+                              "n_episodes": 50,                                                                      
+                              "n_envs": 1,                                                                           
+                              "max_episode_steps": 720,                                                              
+                              "n_action_steps": 32,                                                                  
+                              "video_out_path":                                                                      
+                          "/mnt/data/ljh/starVLA/results/Checkpoints/QwenOFT_WM_LAM_RoboCas                          
+                          a_encoder_and_decoder_with_dinov3_with_depth_with_no_extra_loss_b                          
+                          atchsize1024_MLP_2026_6_13/videos/steps_70000_pytorch_model/n_act                          
+                          ion_steps_32_max_episode_steps_720_n_envs_1_gr1_unified/Posttrain                          
+                          PnPNovelFromTrayToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_                          
+                          Env",                                                                                      
+                              "seed": 7,                                                                             
+                              "pretrained_path":                                                                     
+                          "/mnt/data/ljh/starVLA/results/Checkpoints/QwenOFT_WM_LAM_RoboCas                          
+                          a_encoder_and_decoder_with_dinov3_with_depth_with_no_extra_loss_b                          
+                          atchsize1024_MLP_2026_6_13/checkpoints/steps_70000_pytorch_model.                          
+                          pt"                                                                                        
+                          }                                                                                          
+                 INFO     | >> Waiting for server at ws://127.0.0.1:6669...             websocket_policy_client.py:35
+*** policy_setup: franka, unnorm_key: gr1 ***
+                 INFO     | >> [*] Loading from local checkpoint path                              share_tools.py:312
+                          `/mnt/data/ljh/starVLA/results/Checkpoints/QwenOFT_WM_LAM_RoboCasa_encod                   
+                          er_and_decoder_with_dinov3_with_depth_with_no_extra_loss_batchsize1024_M                   
+                          LP_2026_6_13/checkpoints/steps_70000_pytorch_model.pt`                                     
+/usr/local/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:159: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/usr/local/lib/python3.10/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.sim to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.sim` for environment variables or `env.get_wrapper_attr('sim')` that will search the reminding wrappers.[0m
+  logger.warn(
+/usr/local/lib/python3.10/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.robots to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.robots` for environment variables or `env.get_wrapper_attr('robots')` that will search the reminding wrappers.[0m
+  logger.warn(
+/usr/local/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:159: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+Running 50 episodes for gr1_unified/PosttrainPnPNovelFromTrayToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_Env with 1 environments
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: _load_model has been called over 10 times!
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: _load_model has been called over 20 times!
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: _load_model has been called over 30 times!
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: _load_model has been called over 40 times!
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: _load_model has been called over 50 times!
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+WARNING: _load_model has been called over 60 times!
+WARNING: No object files found for category 'book' in registry 'sketchfab'. Check if registry is installed and up to date.
+No valid object found for distractor_obj_back_edge_type_0_num_0, skip this object config
+[WARN] video file not found, skip rename: /mnt/data/ljh/starVLA/results/Checkpoints/QwenOFT_WM_LAM_RoboCasa_encoder_and_decoder_with_dinov3_with_depth_with_no_extra_loss_batchsize1024_MLP_2026_6_13/videos/steps_70000_pytorch_model/n_action_steps_32_max_episode_steps_720_n_envs_1_gr1_unified/PosttrainPnPNovelFromTrayToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_Env/d2607c97-1ac2-4ac7-b939-0d1419b5e563.mp4
+Collecting 50 episodes took 2119.26 seconds
+Results for gr1_unified/PosttrainPnPNovelFromTrayToCardboardboxSplitA_GR1ArmsAndWaistFourierHands_Env:
+Success rate: 0.86

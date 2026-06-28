@@ -1,0 +1,30 @@
+INFO:starVLA.model.framework.share_tools:[*] Loading from local checkpoint path `/mnt/data/ljh/starVLA/results/Checkpoints/QwenOFT_WM_LAM_RoboCasa_encoder_and_decoder_with_dinov3_with_depth_with_no_extra_loss_batchsize1024_MLP_2026_6_13/checkpoints/steps_70000_pytorch_model.pt`
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 29.35it/s]
+WARNING:dinov2:xFormers not available
+WARNING:dinov2:xFormers not available
+INFO:dinov2:using MLP layer as FFN
+/mnt/data/ljh/starVLA/starVLA/model/framework/VLM4A/QwenOFT_WM_LAM_depth.py:268: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.depth_anything.load_state_dict(torch.load(ckpt, map_location="cpu"))
+/mnt/data/ljh/starVLA/starVLA/model/framework/base_framework.py:248: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_state_dict = torch.load(pretrained_checkpoint, map_location="cpu")
+INFO:root:Creating server (host: dsw-1872352-5458b67975-mw5qt, ip: 22.10.30.121)
+INFO:root:server running ...
+INFO:websockets.server:server listening on 0.0.0.0:6668
+INFO:websockets.server:connection open
+INFO:root:Connection from ('127.0.0.1', 51684) opened
+INFO:websockets.server:connection open
+INFO:root:Connection from ('127.0.0.1', 34074) opened
+INFO:root:Connection from ('127.0.0.1', 51684) closed
+INFO:root:Connection from ('127.0.0.1', 34074) closed
+INFO:websockets.server:connection open
+INFO:root:Connection from ('127.0.0.1', 38032) opened
+INFO:websockets.server:connection open
+INFO:root:Connection from ('127.0.0.1', 44468) opened
+INFO:root:Connection from ('127.0.0.1', 38032) closed
+INFO:websockets.server:connection open
+INFO:root:Connection from ('127.0.0.1', 57510) opened
+INFO:root:Connection from ('127.0.0.1', 44468) closed
+INFO:root:Connection from ('127.0.0.1', 57510) closed
+INFO:websockets.server:connection open
+INFO:root:Connection from ('127.0.0.1', 60738) opened
+INFO:root:Connection from ('127.0.0.1', 60738) closed
