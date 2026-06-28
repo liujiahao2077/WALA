@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wala"
+version = "0.1.0"
+description = "Core source release for WALA"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "torchvision",
+  "transformers",
+  "omegaconf",
+  "accelerate",
+  "rich",
+  "pillow",
+  "opencv-python",
+  "numpy",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

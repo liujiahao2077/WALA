@@ -1,0 +1,20 @@
+framework:
+  name: WALA
+  qwenvl:
+    base_vlm: ./pretrained/Qwen3-VL-4B-Instruct-Action
+    attn_implementation: sdpa
+  dino:
+    dino_backbone: ./pretrained/dinov3-vitb16-pretrain-lvd1689m
+  action_model:
+    action_model_type: MLP
+    action_dim: 14
+    state_dim: 14
+    future_action_window_size: 31
+    past_action_window_size: 0
+  transition_bottleneck:
+    training_mode: vla
+    use_depth: true
+    depth_anything_ckpt: ./pretrained/depth_anything_v2_vitl.pth
+    num_transition_tokens: 32
+    hidden_dim: 1024
+    dino_dim: 768

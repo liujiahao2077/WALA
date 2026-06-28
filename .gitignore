@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+pretrained/
+videos/
+debug_vis/
+debug_depth/
