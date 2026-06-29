@@ -1,6 +1,6 @@
 # WALA Core Source
 
-> **Project Page:** **[liujiahao2077.github.io/WALA](https://liujiahao2077.github.io/WALA/)**
+> **Project Page:** **[WALA](https://liujiahao2077.github.io/WALA.github.io/)**
 
 This repository contains the compact source release for WALA, including the core model architecture built around Qwen3-VL, DINOv3, and Depth Anything V2.
 
