@@ -1,6 +1,6 @@
-# Copyright 2025 WALA community. All rights reserved.
+# Copyright 2026 CASIA & AnyVerse Team. All rights reserved.
 # Licensed under the MIT License, Version 1.0 (the "License");
-# Implemented by [Jinhui YE / HKUST University] in [2025].
+# Implemented by [CASIA & AnyVerse Team] in [2026].
 
 """Action heads for OFT-style VLA models.
 
