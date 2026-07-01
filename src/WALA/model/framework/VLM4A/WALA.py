@@ -4,15 +4,6 @@
 
 """
 WALA Framework with optional RGB-D parallel LAM pretraining.
-
-Depth design in this file:
-  - Depth Anything V2 is used only to produce depth maps from RGB images.
-  - The transition bottleneck consumes depth maps at pixel/patch level, not
-    Depth Anything's RGB-DINO hidden features.
-  - RGB/DINO transition and pixel-depth transition are fused into one canonical
-    transition-token sequence.
-  - Downstream VLA still uses a single transition-token target. Inference does
-    not require depth.
 """
 import os
 import sys
