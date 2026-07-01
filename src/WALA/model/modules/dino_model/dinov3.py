@@ -1,8 +1,5 @@
 """
 DINOv3 vision backbone wrapper using Hugging Face Transformers.
-
-The model and preprocessing configuration are loaded from the same Hugging
-Face model directory. No local DINOv3 source-code checkout is required.
 """
 
 from typing import List, Sequence, Union
