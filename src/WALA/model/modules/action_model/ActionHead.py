@@ -3,23 +3,6 @@
 # Implemented by [CASIA & AnyVerse Team] in [2026].
 
 """Action heads for OFT-style VLA models.
-
-This version replaces the DiT/cross-attention flow head with an OFT-friendly
-interleaved-token flow decoder:
-
-    [time, optional_state, q1, x1, q2, x2, ..., qT, xT]
-
-where q_i is the i-th latent action query and x_i is the noised action token.
-The optional state token is prepended before the interleaved query/action tokens.
-The noised action tokens predict flow velocity, while query tokens receive an
-auxiliary clean-action supervision signal.
-
-The optional self-attention mask keeps the condition side clean:
-    - time/state/query tokens cannot attend to noised action tokens.
-    - noised action tokens can attend to all tokens.
-
-Set use_attention_mask=False to recover the original full self-attention
-behavior and remain compatible with old model weights.
 """
 
 import torch
