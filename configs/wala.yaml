@@ -1,7 +1,7 @@
 framework:
   name: WALA
   qwenvl:
-    base_vlm: ./pretrained/Qwen3-VL-4B-Instruct-Action
+    base_vlm: ./pretrained/Qwen3-VL-4B-Instruct
     attn_implementation: sdpa
   dino:
     dino_backbone: ./pretrained/dinov3-vitb16-pretrain-lvd1689m
