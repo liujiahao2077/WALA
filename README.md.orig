@@ -226,19 +226,3 @@ Use `demo_clean` for the Easy setting and `demo_randomized` for the Hard setting
 ## Acknowledgement
 
 We sincerely thank the great open-source [StarVLA](https://github.com/starVLA/starVLA) project. If you encounter environment installation issues, you may also refer to the StarVLA environment setup and benchmark-specific installation instructions. The environments used in this project are built on top of the StarVLA setup. We thank StarVLA again for its valuable open-source contribution.
-
-## Citation
-
-If you find WALA useful for your research, please cite:
-
-```bibtex
-@misc{liu2026walalearningexecutablelatent,
-  title={WALA Learning Executable Latent Actions from Action-Labeled Demonstrations and Action-Free Videos},
-  author={Jiahao Liu and Zhongpu Xia and Shuai Tian and Huangrui Li and Yuhang Zheng and Ning Ma and Xin Fu and Xiaotian Liu and Jing Li and Yixian Li and ShangQing Zhou and Zebin Xing and Linbo Wang and Chaoyue Li and Haoran Li and Dongbin Zhao},
-  year={2026},
-  eprint={2607.11397},
-  archivePrefix={arXiv},
-  primaryClass={cs.RO},
-  url={https://arxiv.org/abs/2607.11397},
-}
-```
