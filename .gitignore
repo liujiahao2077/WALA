@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Local outputs
+results/
+playground/
+cache/
+wandb/
+*.log
+
+# Large model/checkpoint artifacts
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Local checkpoints and backbone weights. Keep only lightweight placeholders.
+checkpoints/**
+!checkpoints/
+!checkpoints/README.md
+!checkpoints/**/
+!checkpoints/**/.gitkeep

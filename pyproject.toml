@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wala"
+authors = [
+    {name = "WALA authors"},
+]
+description = "WALA: World- and Action-supervised Latent Actions for robot manipulation."
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+keywords = ["robot learning", "latent actions", "world models", "vision-language-action"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["black>=24.2.0", "ruff>=0.2.2", "ipython"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = [
+    "tests", "tests.*",
+    "playground", "playground.*",
+    "results", "results.*",
+    "scripts", "scripts.*",
+    "assets", "assets.*",
+    "*.egg-info",
+    "**__pycache__**",
+]
+
+[tool.setuptools.package-data]
+"wala" = ["py.typed"]
+
+[tool.black]
+line-length = 121
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 121
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["A", "B", "E", "F", "I", "RUF", "W"]
+ignore = ["F722"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["E402", "F401"]
